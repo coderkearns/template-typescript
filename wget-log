@@ -1,0 +1,11 @@
+--2023-06-25 20:15:52--  https://dummyimage.com/200x200/03178c/ffffff.png
+Resolving dummyimage.com (dummyimage.com)... 2606:4700:3035::ac43:9a91, 2606:4700:3037::6815:20c8, 172.67.154.145, ...
+Connecting to dummyimage.com (dummyimage.com)|2606:4700:3035::ac43:9a91|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 920 [image/webp]
+Saving to: ‘ffffff.png’
+
+ffffff.png            0%[                    ]       0  --.-KB/s               ffffff.png          100%[===================>]     920  --.-KB/s    in 0s      
+
+2023-06-25 20:15:53 (44.4 MB/s) - ‘ffffff.png’ saved [920/920]
+
