@@ -1,4 +1,4 @@
-<img align="right" width="200" height="200" src="https://github.com/coderkearns/<NAME>/blob/main/logo.png?raw=true" />
+<img align="right" width="200" height="200" src="https://github.com/coderkearns/template-typescript/blob/main/logo.png?raw=true" />
 
 # template-typescript
 
