@@ -18,8 +18,10 @@
     "scripts": {
         "clean": "rm -rf dist",
         "build:ts": "tsc -b ./tsconfig.*.json",
+        "build:esm": "esbuild ./dist/esm/index.js --minify --sourcemap --outfile=./dist/esm/index.js --allow-overwrite",
+        "build:cjs": "esbuild ./dist/cjs/index.js --minify --sourcemap --platform=node --outfile=./dist/cjs/index.js --allow-overwrite",
         "build:web": "esbuild ./dist/esm/index.js --bundle --minify --sourcemap --target=es2015 --global-name=<NAME> --outfile=dist/web/index.js",
-        "build": "pnpm clean; pnpm build:ts && pnpm build:web",
+        "build": "pnpm clean; pnpm build:ts && pnpm build:esm && pnpm build:cjs && pnpm build:web",
         "publish-package": "pnpm build && pnpm publish --access=public"
     },
     "dependencies": {},
