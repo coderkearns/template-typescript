@@ -8,6 +8,8 @@ A TS template to build for TS, ESM, CJS, and Web all at once.
 
 ### Installing
 
+> IMPORTANT: Not yet registered on npm
+
 You can install from npm:
 
 ```
@@ -20,7 +22,7 @@ Or directly from this repository for bleeding-edge features:
 $ npm install -s git+github.com/coderkearns/<name>
 ```
 
-## Docs
+## Documentation
 
 See [DOCS.md](./DOCS.md) for documentation and examples.
 
